@@ -12,3 +12,5 @@ let frutas = ['pera', 'fresa', 'manzana', 'mango', 'papaya']
 frutas.forEach(fruta => {
     console.log('la fruta es:  ', fruta)
 })
+
+//futa es la variable temporal y console. log es al forma de imprimir
