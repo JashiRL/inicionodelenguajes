@@ -6,11 +6,10 @@
 //  
 
 //revisar en mis tiempos libres como realizar obejtos y manipularlos en prpgramacon
-
-let frutas = ['pera', 'fresa', 'manzana', 'mango', 'papaya']
-
-frutas.forEach(fruta => {
-    console.log('la fruta es:  ', fruta)
-})
-
 //futa es la variable temporal y console. log es al forma de imprimir
+const {frutas, money} = require('./frutas')  //** cuando se usan arreglos importados a fuerzas es necesario usar el mismo nombre con el que se mandan a traer */
+//todo los valores de la variable frutas la va a recibir la constante fruits
+frutas.forEach(fruta => {
+    console.log('la fruta es:  ', fruta) 
+})
+console.log('Dinero: ', money)
